@@ -1,0 +1,1 @@
+az monitor alert-rules create --resource-group myResourceGroup --name myAlertRule --condition "avg $(metricName) > threshold" --description "Alert for high CPU usage" --action-group myActionGroup
