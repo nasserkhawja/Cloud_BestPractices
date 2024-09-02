@@ -1,0 +1,2 @@
+aws cloudtrail create-trail --name my-trail --s3-bucket-name my-log-bucket --include-global-service-events
+aws cloudtrail start-logging --name my-trail
